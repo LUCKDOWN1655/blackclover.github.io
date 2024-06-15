@@ -1,0 +1,85 @@
+body {
+    display: grid;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: #232526;
+    background: -webkit-linear-gradient(to right, #414345, #232526);
+    background: linear-gradient(to right, #414345, #232526);
+    margin: 10px;
+}
+
+.Encabezado{
+    display: flex;
+    width: 500px;
+    height: 30px;
+    gap: 20px;
+    align-items: center;
+    border-radius: 10px 10px 10px 10px;
+    background: #000;
+    justify-content: space-around;
+    padding:  10px;
+}
+
+.Encabezado img {
+    width: 100px;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.Encabezado button {
+    background: #000;
+    cursor: pointer;
+    width: 100px;
+    height: 40px;
+    border-radius: 1rem;
+    border: none;
+    position: relative;
+}
+
+.Principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.videos {
+    display: flex;
+    width: 800px;
+    height: 450px; 
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px 15px 15px 15px;
+    padding: 20px;
+}
+
+.videosop {
+    display: flex;
+    justify-content: center;
+}
+
+#text_info {
+    margin: 30px;
+    color: #fff;
+}
+
+.Text {
+    width: 1100px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    color: #fff;
+    margin: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.btn1 {
+    color: #fff;
+}
+
